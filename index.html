@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Humanize AI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Remove AI Detection</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h2>Humanize AI: Transform your text effortlessly</h2>
+          <div class="input-output">
+            <div class="input-section">
+              <textarea
+                id="textInput"
+                placeholder="Enter the text you want to humanize here"
+              ></textarea>
+              <div class="button-group">
+                <button id="sampleButton" class="secondary-btn">
+                  Try A Sample
+                </button>
+                <button id="pasteButton" class="secondary-btn">
+                  Paste Text
+                </button>
+                <select id="modeSelector">
+                  <option value="latest">Latest</option>
+                </select>
+              </div>
+              <button
+                id="bypassButton"
+                class="primary-btn"
+                style="width: 100%; margin-top: 15px"
+              >
+                Bypass AI
+              </button>
+            </div>
+            <div class="output-section">
+              <div id="outputDisplay">
+                Your transformed text will appear here.
+              </div>
+              <button
+                id="copyOutputButton"
+                class="primary-btn"
+                style="width: 100%; margin-top: 15px"
+              >
+                Copy Output
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="introduction">
+        <div class="container">
+          <h2>Welcome to Humanize AI</h2>
+          <p>
+            Welcome to Humanize AI, your go-to tool for transforming text to
+            evade AI detection. Our service makes it simple to convert
+            AI-generated text into human-like content.
+          </p>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+          <h2>Features</h2>
+          <ul>
+            <li>Instant Text Transformation</li>
+            <li>Free and Easy to Use</li>
+            <li>No Registration Required</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact-form">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <form id="contactForm">
+            <input type="text" id="name" placeholder="Name" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <textarea id="message" placeholder="Message" required></textarea>
+            <button type="submit" class="primary-btn">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>Transform your text to bypass AI detection with Humanize AI.</p>
+      </div>
+    </footer>
+
+  <script src="scripts.js"></script>
+  </body>
+</html>
